@@ -1,1 +1,92 @@
-hello bro
+<html>
+
+<head>
+    <style type="text/css">
+        * {
+            font-size: 20px;
+            color: white;
+        }
+
+        html {
+            font-family: sans-serif;
+            max-width: 900px;
+            padding: 5%;
+            margin: auto;
+            background-color: #181A1B;
+            /*background: #F5F5F0j;
+                */
+        }
+
+        body {
+            background-color: #4e4e4e;
+            /*   background:#FFFFFF;
+             */
+            padding: 10;
+        }
+
+        body div h1:hover {
+            outline: 2px solid green;
+        }
+
+        .inner-body {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .inner-body .right {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .buttons {
+            margin: 10px 0;
+            background-color: white;
+            border: 3px solid black;
+            color: black;
+            cursor: pointer;
+            max-width: 100%;
+            height: 60px;
+            width: 150px;
+            padding: 0 30px;
+
+        }
+
+        .buttons:after {
+            color: blue;
+            transform: translate(8px, 8px);
+            transition: transform .2s ease-out;
+        }
+
+        .buttons:hover:after {
+            transform: translate(0, 0);
+            background-color: red;
+        }
+
+        button .butons:hover {
+            color: aqua;
+        }
+    </style>
+    <title>Emanuel Nogueira - Portfolio</title>
+</head>
+
+<body>
+    <div class="inner-body">
+        <div class="left">
+            <h1> Um Site Ai </h1>
+        </div>
+        <div class="right">
+            <button class="buttons" role="button">Botao 1</button>
+            <button class="buttons" role="button">Botao 2</button>
+
+            <a role="button" href="/outrodiretorio.html">ir para outro diretorio</a>
+
+
+        </div>
+    </div>
+
+</body>
+<script>
+
+</script>
+
+</html>
